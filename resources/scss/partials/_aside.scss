@@ -1,0 +1,18 @@
+aside{
+    width: 200px;
+    background-color: #141619;
+    ul{
+        list-style:  none;
+        li{
+            margin-top: 20px;
+            cursor: pointer;
+            a{
+                color: white;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import '~bootstrap/scss/bootstrap';
+@import './partials/aside';
+
+
+
+
+.main-wrapper{
+    height: calc(100vh - 56px);
+}
+
+.dc-table{
+    button{
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
